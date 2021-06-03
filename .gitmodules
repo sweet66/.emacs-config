@@ -16,3 +16,6 @@
 [submodule "awesome-tab"]
 	path = awesome-tab
 	url = https://github.com/manateelazycat/awesome-tab.git
+[submodule "posframe"]
+	path = posframe
+	url = https://github.com/tumashu/posframe.git
