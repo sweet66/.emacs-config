@@ -1,0 +1,9 @@
+[submodule "sdcv"]
+	path = sdcv
+	url = https://github.com/manateelazycat/sdcv.git
+[submodule "lazy-load"]
+	path = lazy-load
+	url = https://github.com/manateelazycat/lazy-load.git
+[submodule "aweshell"]
+	path = aweshell
+	url = https://github.com/manateelazycat/aweshell.git
