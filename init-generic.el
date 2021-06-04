@@ -89,6 +89,10 @@
 
 (setq byte-compile-warnings '(cl-functions))
 
+(setq dired-use-ls-dired nil)
+
+(load-theme 'monokai)
+
 
 ;; ;; Don't ask me when close emacs with process is running
 ;; (defadvice save-buffers-kill-emacs (around no-query-kill-emacs activate)

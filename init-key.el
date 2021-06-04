@@ -7,7 +7,7 @@
 ;;; ### Unset key ###
 ;;; --- 卸载按键
 (lazy-load-unset-keys                   ;全局按键的卸载
- '("C-z" "s-x"))
+ '("C-z" "s-x" "M-h"))
 
 
 ;;; ### Sdcv ###
@@ -42,7 +42,7 @@
    ("M-9" . awesome-tab-backward-group)  ;移动到后一个标签组
    ("M-0" . awesome-tab-forward-group)   ;移动到前一个标签组
    ("<C-tab>" . awesome-tab-forward-tab) ;移动到后一个标签
-   ("<C-S-iso-lefttab>" . awesome-tab-backward-tab) ;移动到前一个标签
+   ("<C-S-tab>" . awesome-tab-backward-tab) ;移动到前一个标签
    ))
 (lazy-load-global-keys
  '(
@@ -105,5 +105,34 @@
         ("M-:" . awesome-pair-jump-out-pair-and-newline) ;跳出括号并换行
         ))
 (lazy-load-set-keys awesome-pair-key-alist awesome-pair-mode-map)
+
+
+;;; ### Watch other window ###
+;;; --- 滚动其他窗口
+(lazy-load-global-keys
+ '(
+   ("M-J" . watch-other-window-up)        ;向下滚动其他窗口
+   ("M-K" . watch-other-window-down)      ;向上滚动其他窗口
+   ("M-<" . watch-other-window-up-line)   ;向下滚动其他窗口一行
+   ("M->" . watch-other-window-down-line) ;向上滚动其他窗口一行
+   )
+ "watch-other-window")
+
+
+
+;;; ### Buffer Move ###
+;;; --- 缓存移动
+(lazy-load-set-keys
+ '(
+   ("C-z k" . beginning-of-buffer)      ;缓存开始
+   ("C-z j" . end-of-buffer)            ;缓存结尾
+   ))
+
+
+;;; ### expand-region ###
+(lazy-load-global-keys
+ '(
+   ("C-=" . er/expand-region))
+ "expand-region")
 
 (provide 'init-key)

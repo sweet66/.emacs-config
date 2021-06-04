@@ -19,3 +19,30 @@
 [submodule "posframe"]
 	path = posframe
 	url = https://github.com/tumashu/posframe.git
+[submodule "olivetti"]
+	path = olivetti
+	url = https://github.com/rnkn/olivetti.git
+[submodule "web-mode"]
+	path = web-mode
+	url = https://github.com/fxbois/web-mode.git
+[submodule "Indium"]
+	path = Indium
+	url = https://github.com/NicolasPetton/Indium.git
+[submodule "instant-rename-tag"]
+	path = instant-rename-tag
+	url = https://github.com/manateelazycat/instant-rename-tag.git
+[submodule "highlight-matching-tag"]
+	path = highlight-matching-tag
+	url = https://github.com/manateelazycat/highlight-matching-tag.git
+[submodule "js2-refactor"]
+	path = js2-refactor
+	url = https://github.com/js-emacs/js2-refactor.el.git
+[submodule "one-key"]
+	path = one-key
+	url = https://github.com/manateelazycat/one-key.git
+[submodule "watch-other-window"]
+	path = watch-other-window
+	url = https://github.com/manateelazycat/watch-other-window.git
+[submodule "expand-region"]
+	path = expand-region
+	url = https://github.com/magnars/expand-region.el.git

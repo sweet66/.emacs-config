@@ -28,6 +28,12 @@
 ;; Restore session at last.
 (require 'init-session)
 
+;; 
+(require 'one-key)
 
+;; 绑定扩展名到特定的模式
+(require 'init-mode)
+
+(require 'init-company-mode)
 
 (provide 'init)
