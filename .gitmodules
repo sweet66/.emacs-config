@@ -46,3 +46,15 @@
 [submodule "expand-region"]
 	path = expand-region
 	url = https://github.com/magnars/expand-region.el.git
+[submodule "tide"]
+	path = tide
+	url = https://github.com/ananthakumaran/tide.git
+[submodule "cache-path-from-shell"]
+	path = cache-path-from-shell
+	url = https://github.com/manateelazycat/cache-path-from-shell.git
+[submodule "editorconfig-emacs"]
+	path = editorconfig-emacs
+	url = https://github.com/editorconfig/editorconfig-emacs.git
+[submodule "prettier-emacs"]
+	path = prettier-emacs
+	url = https://github.com/prettier/prettier-emacs.git
