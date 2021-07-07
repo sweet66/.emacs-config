@@ -87,11 +87,24 @@
 ;; 设置选中替换
 (delete-selection-mode 1)
 
+;; 忽略cl依赖警告
 (setq byte-compile-warnings '(cl-functions))
 
+;; 忽略ls命令警告
 (setq dired-use-ls-dired nil)
 
-(load-theme 'monokai)
+;; 关闭备份文件
+(setq make-backup-files nil)
+
+;; 加载主题
+(load-theme 'manoj-dark)
+
+
+;; frame title 显示完整路径
+(setq frame-title-format
+      '((:eval (if (buffer-file-name)
+                   (abbreviate-file-name (buffer-file-name))
+                 "%b"))))
 
 
 ;; ;; Don't ask me when close emacs with process is running

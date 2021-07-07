@@ -3,7 +3,7 @@
   (setq mac-option-modifier 'super)
   (setq mac-command-modifier 'meta))
 
- 
+
 ;;; ### Unset key ###
 ;;; --- 卸载按键
 (lazy-load-unset-keys                   ;全局按键的卸载
@@ -51,12 +51,17 @@
    ("M-s-7" . awesome-tab-select-beg-tab)
    ("M-s-8" . awesome-tab-select-end-tab)
    ("M-s-9" . awesome-tab-move-current-tab-to-beg)
+   ("M-s-r" . awesome-tab-move-current-tab-to-right)
+   ("M-s-e" . awesome-tab-move-current-tab-to-left)
    ("s-q" . awesome-tab-kill-other-buffers-in-current-group)
    ("s-Q" . awesome-tab-kill-all-buffers-in-current-group)
    ("s-w" . awesome-tab-keep-match-buffers-in-current-group)
    ("s-W" . awesome-tab-kill-match-buffers-in-current-group)
    )
  "awesome-tab")
+
+
+
 
 
 ;;; ### Functin key ###

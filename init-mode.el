@@ -34,6 +34,7 @@ The test for presence of the car of ELT-CONS is done with `equal'."
                     ("\\.css\\'" . css-mode)
                     ("\\.wxss\\'" . css-mode)
                     ("\\.js$" . js-mode)
+		    ("\\.ts$" . js-mode)
                     ("\\.wxs$" . js-mode)
                     ("\\.jsx$" . web-mode)
                     ))

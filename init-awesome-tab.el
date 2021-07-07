@@ -86,6 +86,17 @@
 ;;; Code:
 (awesome-tab-mode t)
 
+(when (not (display-graphic-p))
+  (setq frame-background-mode 'dark))
+
+(setq awesome-tab-height 150)
+(setq awesome-tab-dark-unselected-blend 0.1)
+
+(setq awesome-tab-dark-active-bar-color "blue")
+(setq awesome-tab-dark-selected-foreground-color "green")
+(setq awesome-tab-dark-unselected-foreground-color "white")
+
+
 (provide 'init-awesome-tab)
 
 ;;; init-awesome-tab.el ends here
