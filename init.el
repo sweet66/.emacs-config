@@ -1,3 +1,6 @@
+;; 初始化包管理器
+(require 'init-package)
+
 ;; 设置字体
 (require 'init-font)
 
@@ -11,6 +14,9 @@
 ;; 
 (require 'lazy-load)
 
+;; 
+(require 'one-key)
+
 ;; 行号设置
 (require 'init-line-number)
 
@@ -19,6 +25,9 @@
 
 ;; tab标签打开buffer
 (require 'init-awesome-tab)
+
+;; 自动保存
+(require 'init-auto-save)
 
 ;; 括号自动补全
 (require 'init-awesome-pair)
@@ -32,9 +41,6 @@
 ;; Restore session at last.
 (require 'init-session)
 
-;; 
-(require 'one-key)
-
 ;; 绑定扩展名到特定的模式
 (require 'init-mode)
 
@@ -47,8 +53,12 @@
 ;; 添加prettier
 (require 'init-prettier)
 
+;; 添加flycheck
+(require 'init-flycheck)
+
 ;; ts,js代码智能补全
 (require 'init-tide)
+
 
 
 (provide 'init)

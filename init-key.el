@@ -140,4 +140,15 @@
    ("C-=" . er/expand-region))
  "expand-region")
 
+
+;;; ### Flycheck ###
+;;; --- 及时拼写检查
+(lazy-load-global-keys
+ '(
+   ("M-s-j" . flycheck-next-error)      ;显示下一个错误
+   ("M-s-k" . flycheck-previous-error)  ;显示上一个错误
+   )
+ "init-flycheck"
+ )
+
 (provide 'init-key)

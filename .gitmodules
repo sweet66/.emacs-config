@@ -58,3 +58,27 @@
 [submodule "prettier-emacs"]
 	path = prettier-emacs
 	url = https://github.com/prettier/prettier-emacs.git
+[submodule "typescript-mode"]
+	path = typescript-mode
+	url = https://github.com/emacs-typescript/typescript.el.git
+[submodule "flycheck"]
+	path = flycheck
+	url = https://github.com/flycheck/flycheck.git
+[submodule "flycheck-posframe"]
+	path = flycheck-posframe
+	url = https://github.com/alexmurray/flycheck-posframe.git
+[submodule "s"]
+	path = s
+	url = https://github.com/magnars/s.el.git
+[submodule "js2-mode"]
+	path = js2-mode
+	url = https://github.com/mooz/js2-mode.git
+[submodule "dash"]
+	path = dash
+	url = https://github.com/magnars/dash.el.git
+[submodule "multiple-cursors"]
+	path = multiple-cursors
+	url = https://github.com/magnars/multiple-cursors.el.git
+[submodule "yasnippet"]
+	path = yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
