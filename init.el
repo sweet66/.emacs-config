@@ -11,10 +11,10 @@
 (when (featurep 'cocoa)
   (require 'cache-path-from-shell))
 
-;; 
+;;
 (require 'lazy-load)
 
-;; 
+;;
 (require 'one-key)
 
 ;; 行号设置
@@ -51,7 +51,7 @@
 (require 'init-editorconfig)
 
 ;; 添加prettier
-(require 'init-prettier)
+;; (require 'init-prettier)
 
 ;; 添加flycheck
 (require 'init-flycheck)
