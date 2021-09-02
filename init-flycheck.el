@@ -92,6 +92,7 @@
 ;; I don't like `global-flycheck-mode', some mode, such as elisp mode don't need.
 (dolist (hook (list
                'js-mode-hook
+	       'web-mode-hook
                ))
   (add-hook
    hook

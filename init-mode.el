@@ -37,6 +37,7 @@ The test for presence of the car of ELT-CONS is done with `equal'."
 		    ("\\.ts$" . js-mode)
                     ("\\.wxs$" . js-mode)
                     ("\\.jsx$" . web-mode)
+		    ("\\.tsx$" . web-mode)
                     ))
   (add-to-alist 'auto-mode-alist elt-cons))
 
