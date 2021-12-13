@@ -51,13 +51,13 @@
 (require 'init-editorconfig)
 
 ;; 添加prettier
-;; (require 'init-prettier)
+(require 'init-prettier)
 
 ;; 添加flycheck
-(require 'init-flycheck)
+;; (require 'init-flycheck)
 
-;; ts,js代码智能补全
-(require 'init-tide)
+;; ts, js代码智能补全
+;; (require 'init-tide)
 
 
 

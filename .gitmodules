@@ -82,3 +82,6 @@
 [submodule "yasnippet"]
 	path = yasnippet
 	url = https://github.com/joaotavora/yasnippet.git
+[submodule "popweb"]
+	path = popweb
+	url = https://github.com/manateelazycat/popweb.git
