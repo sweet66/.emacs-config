@@ -30,6 +30,10 @@
   (fullscreen))
 
 
+(when (featurep 'cocoa)
+  (require 'exec-path-from-shell)
+  (exec-path-from-shell-initialize))
+
 ;; Restore emacs session.
 (setq initial-buffer-choice t)
 (run-with-timer 1 nil #'(lambda () (bury-buffer)))
