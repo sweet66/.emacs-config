@@ -43,6 +43,7 @@
                'conf-toml-mode-hook
                'nxml-mode-hook
                'nim-mode-hook
+               'typescript-mode-hook
                ))
   (add-hook hook (lambda () (display-line-numbers-mode))))
 

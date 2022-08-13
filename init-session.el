@@ -36,6 +36,4 @@
     ;; Exit emacs.
     (kill-emacs)))
 
-(emacs-session-restore)
-
 (provide 'init-session)

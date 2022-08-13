@@ -34,10 +34,10 @@ The test for presence of the car of ELT-CONS is done with `equal'."
                     ("\\.css\\'" . css-mode)
                     ("\\.wxss\\'" . css-mode)
                     ("\\.js$" . js-mode)
-		    ("\\.ts$" . js-mode)
+		                ("\\.ts$" . typescript-mode)
                     ("\\.wxs$" . js-mode)
                     ("\\.jsx$" . web-mode)
-		    ("\\.tsx$" . web-mode)
+                    ("\\.json$" . json-mode)
                     ))
   (add-to-alist 'auto-mode-alist elt-cons))
 
@@ -49,6 +49,8 @@ The test for presence of the car of ELT-CONS is done with `equal'."
 (autoload 'web-mode "init-web-mode")
 (autoload 'css-mode "init-css-mode")
 (autoload 'js-mode "init-web-mode")
+(autoload 'typescript-mode "typescript-mode")
+(autoload 'json-mode "json-mode")
 
 ;;; ### Auto-fill ###
 ;;; --- 自动换行

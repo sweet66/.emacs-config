@@ -1,5 +1,5 @@
 ;; 初始化包管理器
-(require 'init-package)
+;; (require 'init-package)
 
 ;; 设置字体
 (require 'init-font)
@@ -13,6 +13,9 @@
 
 ;;
 (require 'lazy-load)
+
+;; lsp 补全
+(require 'init-lsp-bridge)
 
 ;;
 (require 'one-key)
@@ -32,20 +35,14 @@
 ;; 括号自动补全
 (require 'init-awesome-pair)
 
-;; 按键绑定
-(require 'init-key)
-
 ;; 翻译
 (require 'init-sdcv)
-
-;; Restore session at last.
-(require 'init-session)
 
 ;; 绑定扩展名到特定的模式
 (require 'init-mode)
 
 ;; 自动补全
-(require 'init-company-mode)
+;; (require 'init-company-mode)
 
 ;; 添加editorconfig
 (require 'init-editorconfig)
@@ -59,6 +56,24 @@
 ;; ts, js代码智能补全
 ;; (require 'init-tide)
 
+;; 按键绑定
+(require 'init-key)
 
+(run-with-timer
+  1 nil
+  #'(lambda ()
+         (require 'init-yasnippet)
+         (require 'init-markdown-mode)
+         (require 'init-proxy)
+
+         ;; Restore session at last.
+         (require 'init-session)
+         (emacs-session-restore)
+      ))
+
+(setq url-proxy-services
+   '(("no_proxy" . "^\\(localhost\\|10\\..*\\|192\\.168\\..*\\)")
+     ("http" . "localhost:8118")
+      ("https" . "localhost:8118")))
 
 (provide 'init)

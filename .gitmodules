@@ -85,3 +85,21 @@
 [submodule "popweb"]
 	path = popweb
 	url = https://github.com/manateelazycat/popweb.git
+[submodule "lsp-bridge"]
+	path = lsp-bridge
+	url = https://github.com/manateelazycat/lsp-bridge.git
+[submodule "markdown-mode"]
+	path = markdown-mode
+	url = https://github.com/jrblevin/markdown-mode.git
+[submodule "spinner"]
+	path = spinner
+	url = https://github.com/Malabarba/spinner.el.git
+[submodule "ht"]
+	path = ht
+	url = https://github.com/Wilfred/ht.el.git
+[submodule "json-mode"]
+	path = json-mode
+	url = https://github.com/joshwnj/json-mode
+[submodule "json-snatcher"]
+	path = json-snatcher
+	url = https://github.com/Sterlingg/json-snatcher
